@@ -19,12 +19,6 @@ source ~/.zshrc
 cm
 ```
 
-## Test
-
-```sh
-cd ./example && sh ./.commit/message.sh
-```
-
 ## Example
 
 ```
