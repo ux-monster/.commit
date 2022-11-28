@@ -43,7 +43,7 @@ do
 done
 
 echo "Please enter your commit message"
-read -p "$opt" message
+read -ep "$opt" message
 RESULT="$opt$message\n\n"
 
 # TEST

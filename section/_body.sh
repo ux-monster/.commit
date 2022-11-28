@@ -2,7 +2,7 @@
 
 # Summary
 echo "Please enter your commit summary"
-read -p "Summary: " summary
+read -ep "Summary: " summary
 
 # Summary - Result
 RESULT="${RESULT}Summary:\n${summary}\n\n"
@@ -18,7 +18,7 @@ DETAILS=""
 declare -i INDEX=1
 while :
 do
-    read -p "$INDEX) " details
+    read -ep "$INDEX) " details
     case $details in
         "E"|"end")
             break
